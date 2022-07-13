@@ -8,7 +8,7 @@ Example usage:
 
 ```
 .\srfngout
-TYaX87q88S0o7263_20012022
+13072022_5m88i663tw17265F
 ```
 
 Commandline arguments may be supported in the future.

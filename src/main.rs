@@ -2,7 +2,7 @@ use srfng;
 
 fn main() {
 
-    let mut gen = srfng::generator::Generator::new();
+    let mut gen = srfng::Generator::new();
 
     println!("{}", gen.generate().as_str());
 

@@ -1,6 +1,6 @@
 [package]
 name = "srfngout"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Paul Saunders <coruscateor@users.noreply.github.com>"]
 edition = "2018"
 license = "MIT"
