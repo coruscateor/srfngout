@@ -102,6 +102,8 @@ dependencies = [
 [[package]]
 name = "srfng"
 version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e969c7f4adf176f2f9aa8369ca6c49aa7ed42ac2317edb231b51062f22ce2a71"
 dependencies = [
  "chrono",
  "rand",
@@ -109,7 +111,7 @@ dependencies = [
 
 [[package]]
 name = "srfngout"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
  "srfng",
 ]

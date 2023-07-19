@@ -1,15 +1,18 @@
 [package]
 name = "srfngout"
-version = "1.0.0"
-authors = ["Paul Saunders <coruscateor@users.noreply.github.com>"]
+version = "1.0.1"
 edition = "2018"
-license = "MIT"
+license = "MIT OR Apache-2.0"
 description = "A commandline tool for generating semi-random file names"
 readme = "README.md"
 repository = "https://github.com/coruscateor/srfngout"
+homepage = "https://coruscateor.com/projects/srfngout"
+keywords = ["file", "files", "name", "names"]
+categories = ["filesystem"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-srfng = { path = "../srfng" }
+srfng =  "1.*"
+#srfng = { path = "../srfng" } #Do not remove
 
